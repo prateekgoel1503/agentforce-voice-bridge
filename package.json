@@ -1,0 +1,12 @@
+{
+    "name": "agentforce-voice-bridge-root",
+    "version": "1.0.0",
+    "description": "Root proxy for Agentforce Voice Bridge Middleware",
+    "scripts": {
+        "postinstall": "cd salesforce-project/middleware && npm install",
+        "start": "cd salesforce-project/middleware && node server.js"
+    },
+    "engines": {
+        "node": "18.x"
+    }
+}
