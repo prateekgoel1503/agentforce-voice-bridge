@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>This topic is used when customers need guidance on renewing their contracts with Acme Corp.</description>
+    <developerName>p_16jg5000000AVaP_Contract_Renewal_Assistance</developerName>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__AnswerQuestionsWithKnowledge</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If the customer asks about renewing their contract, guide them through the process.</description>
+        <developerName>instruction_0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If the customer confirms renewal, use the relevant action to update the contract.</description>
+        <developerName>instruction_1</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_1</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Contract Renewal Assistance</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to only assist customers in understanding and completing the contract renewal process. You cannot handle unrelated queries or create new contracts.</scope>
+</GenAiPlugin>

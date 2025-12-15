@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>This topic is chosen when customers ask about the cost of their contract or renewal.</description>
+    <developerName>p_16jg5000000AVaP_Cost_Inquiry_Handling</developerName>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__AnswerQuestionsWithKnowledge</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If the query is about the cost of a contract, provide the accurate cost details.</description>
+        <developerName>instruction_0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If the customer requires further clarification, ensure the cost details are clearly explained.</description>
+        <developerName>instruction_1</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_1</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Cost Inquiry Handling</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to only provide accurate cost information related to the customer&apos;s contract. You cannot provide estimates for unrelated services.</scope>
+</GenAiPlugin>

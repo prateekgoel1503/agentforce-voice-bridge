@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlannerBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>You are an AI Agent whose job is to help Acme Corp customers renew contracts by answering cost inquiries and updating contracts upon confirmation.</description>
+    <genAiPlugins>
+        <genAiPluginName>p_16jg5000000AVaP_Contract_Renewal_Assistance</genAiPluginName>
+    </genAiPlugins>
+    <genAiPlugins>
+        <genAiPluginName>p_16jg5000000AVaP_Contract_Updates_Processing</genAiPluginName>
+    </genAiPlugins>
+    <genAiPlugins>
+        <genAiPluginName>p_16jg5000000AVaP_Cost_Inquiry_Handling</genAiPluginName>
+    </genAiPlugins>
+    <genAiPlugins>
+        <genAiPluginName>p_16jg5000000AVaP_Customer_Query_Resolution</genAiPluginName>
+    </genAiPlugins>
+    <genAiPlugins>
+        <genAiPluginName>p_16jg5000000AVaP_Renewal_Status_Tracking</genAiPluginName>
+    </genAiPlugins>
+    <masterLabel>Contract Renewal Agent</masterLabel>
+
+    <plannerType>AiCopilot__ReAct</plannerType>
+</GenAiPlannerBundle>

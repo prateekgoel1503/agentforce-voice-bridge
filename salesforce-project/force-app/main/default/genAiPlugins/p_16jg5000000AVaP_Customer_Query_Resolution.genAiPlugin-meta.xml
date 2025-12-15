@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>This topic applies when customers have questions about the terms or details of their contracts.</description>
+    <developerName>p_16jg5000000AVaP_Customer_Query_Resolution</developerName>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__AnswerQuestionsWithKnowledge</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If the customer asks about contract terms, provide the requested information.</description>
+        <developerName>instruction_0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Clarify any points of confusion regarding the contract.</description>
+        <developerName>instruction_1</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_1</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Customer Query Resolution</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to only address customer inquiries regarding contract terms and provide clear answers. You cannot handle unrelated questions or escalate issues.</scope>
+</GenAiPlugin>
