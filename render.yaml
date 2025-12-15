@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: agentforce-voice-bridge
+    env: node
+    root: salesforce-project/middleware
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_VERSION
+        value: 18.x
